@@ -1,0 +1,37 @@
+# ==========================================
+# 1. THƯ MỤC THƯ VIỆN (Rất nặng, KHÔNG đẩy lên)
+# ==========================================
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# ==========================================
+# 2. FILE BẢO MẬT & MÔI TRƯỜNG
+# ==========================================
+# Chứa thông tin cấu hình database, mật khẩu, JWT secret
+.env
+backend/.env
+frontend/.env
+
+# ==========================================
+# 3. THƯ MỤC BUILD & CACHE CỦA FRONTEND
+# ==========================================
+build/
+dist/
+.cache/
+
+# ==========================================
+# 4. THƯ MỤC UPLOAD & DỮ LIỆU TẠM THỜI
+# ==========================================
+# Bỏ qua các file ảnh/tài liệu người dùng upload lên lúc test
+backend/uploads/
+uploads/
+
+# ==========================================
+# 5. CÁC FILE HỆ ĐIỀU HÀNH & EDITOR TỰ TẠO
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
